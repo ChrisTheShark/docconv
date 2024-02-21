@@ -9,6 +9,8 @@ cloud.google.com/go/errorreporting v0.3.0 h1:kj1XEWMu8P0qlLhm3FwcaFsUvXChV/OraZw
 cloud.google.com/go/errorreporting v0.3.0/go.mod h1:xsP2yaAp+OAW4OIm60An2bbLpqIhKXdWR/tawvl7QzU=
 cloud.google.com/go/longrunning v0.4.1 h1:v+yFJOfKC3yZdY6ZUI933pIYdhyhV8S3NpWrXWmg7jM=
 cloud.google.com/go/longrunning v0.4.1/go.mod h1:4iWDqhBZ70CvZ6BfETbvam3T8FMvLK+eFj0E6AaRQTo=
+code.sajari.com/docconv/v2 v2.0.0-pre.4 h1:1yQrSTah9rMSC/s1T9bq2H2j1NuRTppeApqZf2A8Zbc=
+code.sajari.com/docconv/v2 v2.0.0-pre.4/go.mod h1:+pfeEYCOA46E5fq44sh1OKEkO9hsptg8XRioeP1vvPg=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/JalfResi/justext v0.0.0-20170829062021-c0282dea7198 h1:8P+AjBhGByCuCX2zTkAf6UY+dj0JczX+t6cSdCSyvfw=
 github.com/JalfResi/justext v0.0.0-20170829062021-c0282dea7198/go.mod h1:0SURuH1rsE8aVWvutuMZghRNrNrYEUzibzJfhEYR8L0=
