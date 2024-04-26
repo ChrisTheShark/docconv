@@ -55,7 +55,7 @@ func ConvertPDFText(path string) (BodyResult, MetaResult, error) {
 
 	br := make(chan BodyResult, 1)
 	go func() {
-		body, err := exec.Command("pdftotext", "-q", "-layout", "-nopgbrk", "-enc", "UTF-8", "-eol", "unix", path, "-").Output()
+		body, err := exec.Command("pdftotext", "-q", "-layout", path, "-").Output()
 		if err != nil {
 			bodyResult.err = err
 		}
@@ -105,8 +105,7 @@ func ConvertPDFTextWithPage(path string, start, end int) (BodyResult, MetaResult
 
 	br := make(chan BodyResult, 1)
 	go func() {
-		body, err := exec.Command("pdftotext", "-q", "-layout", "-nopgbrk", "-enc", "UTF-8", "-eol", "unix",
-			"-f", fmt.Sprintf("%d", start), "-l", fmt.Sprintf("%d", end), path, "-").Output()
+		body, err := exec.Command("pdftotext", "-q", "-layout", "-f", fmt.Sprintf("%d", start), "-l", fmt.Sprintf("%d", end), path, "-").Output()
 		if err != nil {
 			bodyResult.err = err
 		}
