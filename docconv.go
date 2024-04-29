@@ -86,9 +86,6 @@ func Convert(r io.Reader, mimeType string, readability bool) (*Response, error) 
 	case "text/html":
 		body, meta, err = ConvertHTML(r, readability)
 
-	case "text/url":
-		body, meta, err = ConvertURL(r, readability)
-
 	case "text/xml", "application/xml":
 		body, meta, err = ConvertXML(r)
 

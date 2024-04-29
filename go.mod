@@ -7,7 +7,6 @@ require (
 	cloud.google.com/go/errorreporting v0.3.0
 	code.sajari.com/docconv/v2 v2.0.0-pre.4
 	github.com/JalfResi/justext v0.0.0-20170829062021-c0282dea7198
-	github.com/advancedlogic/GoOse v0.0.0-20191112112754-e742535969c1
 	github.com/google/go-cmp v0.5.9
 	github.com/gorilla/mux v1.8.0
 	github.com/otiai10/gosseract/v2 v2.2.4
@@ -20,6 +19,7 @@ require (
 require (
 	cloud.google.com/go/compute v1.19.1 // indirect
 	github.com/PuerkitoBio/goquery v1.5.1 // indirect
+	github.com/advancedlogic/GoOse v0.0.0-20191112112754-e742535969c1 // indirect
 	github.com/andybalholm/cascadia v1.2.0 // indirect
 	github.com/araddon/dateparse v0.0.0-20200409225146-d820a6159ab1 // indirect
 	github.com/fatih/set v0.2.1 // indirect
